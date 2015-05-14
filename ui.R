@@ -7,7 +7,7 @@ shinyUI(
     # Application title
     headerPanel("BMI"),
     sidebarPanel(
-      numericInput("hight", "Hight in Metters", value="1.75"),
+      numericInput("hight", "Hight in Metter", value="1.75"),
       numericInput("weight", "Weight in Kg", value="65")
     ),
     mainPanel(
